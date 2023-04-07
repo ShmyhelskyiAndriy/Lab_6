@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Lab62 {    public static void main(String[] args) {        for (int i = 0; i < 5; i++) {            System.out.print("Введіть слово: ");            Scanner sent = new Scanner(System.in);            String word = sent.next();            System.out.println(word.substring(0,1));        }    }}
